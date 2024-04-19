@@ -152,6 +152,11 @@ body {
 	line-height: 1.2;
 	font-size: calc(1.375rem + 1.5vw);
 }
+@media (min-width: 1200px) {
+	.quote__text {
+    font-size: 2.5rem;
+	}
+}
 .quote__author {
 	font-family: Spectral;
 	font-weight: 800;
